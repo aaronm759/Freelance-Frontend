@@ -1,0 +1,97 @@
+/*----------------------------------------------*/
+
+/*----------------------------------------------*/
+
+/*-----------mobile styling---------------------*/
+
+/*----------------------------------------------*/
+
+/*----------------------------------------------*/
+
+@media only screen and (max-width: 700px) {
+    .cloud1 {
+        position: absolute;
+        left: -110vw;
+        background: #000;
+        border-radius: 50%;
+        width: 90vw;
+        height: 60vh;
+        z-index: 2;
+    }
+    .cloud2 {
+        position: absolute;
+        top: -70vh;
+        left: 30vw;
+        background: #000;
+        border-radius: 50%;
+        width: 110vw;
+        height: 40vh;
+        overflow-x: hidden;
+        z-index: 1;
+    }
+    .cloud3 {
+        position: fixed;
+        left: -115vw;
+        width: 105vw;
+        height: 100vh;
+        background: #000;
+        border-radius: 50%;
+        z-index: 1;
+    }
+    .cloud4 {
+        position: absolute;
+        left: -115vw;
+        width: 105vw;
+        height: 70vh;
+        background: #000;
+        border-radius: 50%;
+    }
+}
+
+/*----------------------------------------------*/
+
+/*----------------------------------------------*/
+
+/*-----------desktop styling---------------------*/
+
+/*----------------------------------------------*/
+
+/*----------------------------------------------*/
+
+@media only screen and (min-width: 700px) {
+    .cloud1 {
+        position: absolute;
+        left: -110vw;
+        background: #000;
+        border-radius: 50%;
+        width: 90vw;
+        height: 70vh;
+    }
+    .cloud2 {
+        position: absolute;
+        top: -120vh;
+        left: 50vw;
+        background: #000;
+        border-radius: 50%;
+        width: 50vw;
+        height: 70vh;
+        overflow-x: hidden;
+    }
+    .cloud3 {
+        position: fixed;
+        left: -115vw;
+        width: 105vw;
+        height: 100vh;
+        background: #000;
+        border-radius: 50%;
+        z-index: 1;
+    }
+    .cloud4 {
+        position: absolute;
+        left: -115vw;
+        width: 105vw;
+        height: 70vh;
+        background: #000;
+        border-radius: 50%;
+    }
+}

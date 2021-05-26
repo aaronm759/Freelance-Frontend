@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+/*----------------------------------------------*/
+
+/*----------------------------------------------*/
+
+/*-----------mobile styling---------------------*/
+
+/*----------------------------------------------*/
+
+/*----------------------------------------------*/
+
+@media only screen and (max-width: 700px) {
+    .background {
+        width: 100vw;
+        height: 100vh;
+        z-index: -1;
+        background: radial-gradient(circle, rgba(137, 151, 224, 1) 0%, rgb(35, 63, 209) 100%);
+        overflow-x: hidden;
+    }
+    .contactbox {
+        position: absolute;
+        top: 20vh;
+        left: 10vw;
+        width: 80vw;
+        z-index: 90;
+        margin: 1vh;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .formbox {
+        width: 70vw;
+        height: 40vh;
+        z-index: 100;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .inputbox {
+        margin: .1vh;
+        border: solid gray 2px;
+    }
+    .head {
+        font-size: 3em;
+        font-family: 'Open Sans', sans-serif;
+    }
+}
+
+/*----------------------------------------------*/
+
+/*----------------------------------------------*/
+
+/*-----------desktop styling---------------------*/
+
+/*----------------------------------------------*/
+
+/*----------------------------------------------*/
+
+@media only screen and (min-width: 701px) {
+    .background {
+        width: 100vw;
+        height: 100vh;
+        z-index: -1;
+        background: radial-gradient(circle, rgba(137, 151, 224, 1) 0%, rgb(35, 63, 209) 100%);
+        overflow-x: hidden;
+    }
+    .contactbox {
+        position: absolute;
+        top: 20vh;
+        left: 20vw;
+        width: 60vw;
+        z-index: 100;
+        margin: 1vh;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .formbox {
+        width: 50vw;
+        height: 40vh;
+        z-index: 100;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .inputbox {
+        margin: .5vw;
+        width: 30vw;
+    }
+    .head {
+        font-size: 3em;
+        font-family: 'Open Sans', sans-serif;
+    }
+}
