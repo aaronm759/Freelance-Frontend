@@ -112,7 +112,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_3__);
 
 
-var _jsxFileName = "C:\\Users\\amcfa\\Documents\\Coding Projects\\Freelance Website\\frontend\\components\\cloud3.js";
+var _jsxFileName = "C:\\Users\\AM\\Documents\\Code Base\\Freelance Website\\frontend\\components\\cloud3.js";
 
 
 
@@ -246,7 +246,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_5__);
 
 
-var _jsxFileName = "C:\\Users\\amcfa\\Documents\\Coding Projects\\Freelance Website\\frontend\\pages\\contact.js";
+var _jsxFileName = "C:\\Users\\AM\\Documents\\Code Base\\Freelance Website\\frontend\\pages\\contact.js";
 
 
 

@@ -19,6 +19,6 @@ export default function handler(req, res) {
 
 
     } else {
-        // Handle any other HTTP method
+        console.log('fail')
     }
 }
